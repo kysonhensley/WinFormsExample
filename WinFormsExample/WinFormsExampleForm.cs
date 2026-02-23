@@ -1,8 +1,8 @@
 namespace WinFormsExample
 {
-    public partial class Form1 : Form
+    public partial class WinFormsExampleForm : Form
     {
-        public Form1()
+        public WinFormsExampleForm()
         {
             InitializeComponent();
         }
