@@ -42,8 +42,19 @@
             ButtonGroupBox = new GroupBox();
             UserInfoGroupBox = new GroupBox();
             groupBox1 = new GroupBox();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
+            radioButton1 = new RadioButton();
+            checkBox3 = new CheckBox();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox4 = new CheckBox();
+            LowerCaseRadioButton = new RadioButton();
+            UpperCaseRadioButton = new RadioButton();
+            ReverseButton = new RadioButton();
             ButtonGroupBox.SuspendLayout();
             UserInfoGroupBox.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // SubmitButton
@@ -151,7 +162,7 @@
             ButtonGroupBox.Location = new Point(316, 318);
             ButtonGroupBox.Name = "ButtonGroupBox";
             ButtonGroupBox.Size = new Size(472, 120);
-            ButtonGroupBox.TabIndex = 9;
+            ButtonGroupBox.TabIndex = 5;
             ButtonGroupBox.TabStop = false;
             // 
             // UserInfoGroupBox
@@ -167,32 +178,151 @@
             UserInfoGroupBox.Location = new Point(12, 12);
             UserInfoGroupBox.Name = "UserInfoGroupBox";
             UserInfoGroupBox.Size = new Size(274, 206);
-            UserInfoGroupBox.TabIndex = 10;
+            UserInfoGroupBox.TabIndex = 0;
             UserInfoGroupBox.TabStop = false;
             UserInfoGroupBox.Text = "User Info";
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(radioButton4);
+            groupBox1.Controls.Add(radioButton3);
+            groupBox1.Controls.Add(radioButton1);
+            groupBox1.Controls.Add(checkBox3);
+            groupBox1.Controls.Add(checkBox1);
             groupBox1.Location = new Point(316, 12);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(472, 300);
-            groupBox1.TabIndex = 11;
+            groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(192, 167);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(117, 24);
+            radioButton4.TabIndex = 6;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "radioButton4";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(192, 197);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(117, 24);
+            radioButton3.TabIndex = 5;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "radioButton3";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(192, 137);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(117, 24);
+            radioButton1.TabIndex = 3;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "radioButton1";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(191, 85);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(101, 24);
+            checkBox3.TabIndex = 2;
+            checkBox3.Text = "checkBox3";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(191, 55);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(101, 24);
+            checkBox1.TabIndex = 0;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(167, 261);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(101, 24);
+            checkBox2.TabIndex = 2;
+            checkBox2.Text = "checkBox2";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(167, 288);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(101, 24);
+            checkBox4.TabIndex = 3;
+            checkBox4.Text = "checkBox4";
+            checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // LowerCaseRadioButton
+            // 
+            LowerCaseRadioButton.AutoSize = true;
+            LowerCaseRadioButton.Location = new Point(33, 291);
+            LowerCaseRadioButton.Name = "LowerCaseRadioButton";
+            LowerCaseRadioButton.Size = new Size(70, 24);
+            LowerCaseRadioButton.TabIndex = 4;
+            LowerCaseRadioButton.TabStop = true;
+            LowerCaseRadioButton.Text = "Lower";
+            LowerCaseRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // UpperCaseRadioButton
+            // 
+            UpperCaseRadioButton.AutoSize = true;
+            UpperCaseRadioButton.Location = new Point(33, 261);
+            UpperCaseRadioButton.Name = "UpperCaseRadioButton";
+            UpperCaseRadioButton.Size = new Size(71, 24);
+            UpperCaseRadioButton.TabIndex = 1;
+            UpperCaseRadioButton.TabStop = true;
+            UpperCaseRadioButton.Text = "Upper";
+            UpperCaseRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // ReverseButton
+            // 
+            ReverseButton.AutoSize = true;
+            ReverseButton.Location = new Point(33, 318);
+            ReverseButton.Name = "ReverseButton";
+            ReverseButton.Size = new Size(81, 24);
+            ReverseButton.TabIndex = 7;
+            ReverseButton.TabStop = true;
+            ReverseButton.Text = "Reverse";
+            ReverseButton.UseVisualStyleBackColor = true;
             // 
             // WinFormsExampleForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(ReverseButton);
+            Controls.Add(UpperCaseRadioButton);
+            Controls.Add(checkBox4);
+            Controls.Add(LowerCaseRadioButton);
             Controls.Add(groupBox1);
+            Controls.Add(checkBox2);
             Controls.Add(UserInfoGroupBox);
             Controls.Add(ButtonGroupBox);
             Name = "WinFormsExampleForm";
             ButtonGroupBox.ResumeLayout(false);
             UserInfoGroupBox.ResumeLayout(false);
             UserInfoGroupBox.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -211,5 +341,15 @@
         private GroupBox ButtonGroupBox;
         private GroupBox UserInfoGroupBox;
         private GroupBox groupBox1;
+        private CheckBox checkBox3;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox4;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private RadioButton radioButton1;
+        private RadioButton LowerCaseRadioButton;
+        private RadioButton UpperCaseRadioButton;
+        private RadioButton ReverseButton;
     }
 }
